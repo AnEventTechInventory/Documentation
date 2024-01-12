@@ -1,11 +1,5 @@
 # Devices
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-- [Contents](#contents)
-
 ## Introduction
 
 A device represents a physical devices. These can contain other devices. No 

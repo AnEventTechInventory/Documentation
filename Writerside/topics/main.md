@@ -1,12 +1,5 @@
 # Main
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-- [Contents](#contents)
-- [Links](#links)
-
 ## Introduction
 
 The goal of this project is to create an inventory system for event 
@@ -49,8 +42,6 @@ are used. E.g. a macro keyboard.
 [Backend](https://github.com/AnEventTechInventory/Backend)
 
 [Frontend](https://github.com/AnEventTechInventory/Frontend)
-
-[Go To Top](#table-of-contents)
 
 [action-link]: https://github.com/AnEventTechInventory/Documentation/blob/main/.github/workflows/build.yml
 [action-badge]: https://github.com/AnEventTechInventory/Documentation/actions/workflows/build.yml/badge.svg
