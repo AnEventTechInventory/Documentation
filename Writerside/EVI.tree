@@ -7,4 +7,6 @@
                  start-page="main.md">
 
     <toc-element topic="main.md"/>
+    <toc-element topic="manufacturer.md"/>
+    <toc-element topic="device.md"/>
 </instance-profile>
