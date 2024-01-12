@@ -9,4 +9,6 @@
     <toc-element topic="main.md"/>
     <toc-element topic="manufacturer.md"/>
     <toc-element topic="device.md"/>
+    <toc-element topic="action-qr-code.topic"/>
+    <toc-element topic="qr-codes.topic"/>
 </instance-profile>
