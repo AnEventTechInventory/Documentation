@@ -8,8 +8,10 @@ simply be created by scanning the barcode. The same applies for scanning a QR-co
 
 ## Contents
 
-| Name         | Datentyp     | Required | Link                | Comment |
-|--------------|--------------|----------|---------------------|---------|
-| Type         | Type         | yes      | [[type.md]]         |         |
-| Electrical   | Electrical   | yes      | [[electrical.md]]   |         |
-| Location     | Location     | yes      | [[location.md]]     |         |
+| Name       | Datentyp                    | Required | Link | Comment |
+|------------|-----------------------------|----------|------|---------|
+| Type       | [Type](type.md)             | yes      |      |         |
+| Electrical | [Electrical](electrical.md) | yes      |      |         |
+| Location   | [Location](location)     | yes      |      |         |
+| Contents   | Device[]                    | no       |      |         |
+ 

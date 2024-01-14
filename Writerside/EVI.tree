@@ -12,6 +12,7 @@
     </toc-element>
 
     <toc-element toc-title="Background">
+        <toc-element topic="Location.md"/>
         <toc-element topic="electrical.md"/>
         <toc-element topic="device.md">
             <toc-element topic="type-tag.md"/>
