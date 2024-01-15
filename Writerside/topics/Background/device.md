@@ -12,6 +12,6 @@ simply be created by scanning the barcode. The same applies for scanning a QR-co
 |------------|-----------------------------|----------|------|---------|
 | Type       | [Type](type.md)             | yes      |      |         |
 | Electrical | [Electrical](electrical.md) | yes      |      |         |
-| Location   | [Location](location)     | yes      |      |         |
+| Location   | [Location](location.md)       | yes      |      |         |
 | Contents   | Device[]                    | no       |      |         |
  
