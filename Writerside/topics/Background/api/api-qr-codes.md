@@ -19,6 +19,8 @@ The type can be one of the following:
 - location
 - action
 
+## Custom
+
 For custom data the following endpoint can be used:
 
 `/api/v1/qr-code?data={data}?error_correction={error_correction}?format={format}`
