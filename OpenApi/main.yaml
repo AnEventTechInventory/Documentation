@@ -1,0 +1,62 @@
+openapi: "3.0.2"
+info:
+  title: "AnEventTechInventory API"
+  version: "1.0"
+servers:
+  - url: "http://localhost:8080/v1"
+    description: "Local server"
+
+paths:
+  /version:
+    get:
+      summary: "Get API version"
+      operationId: "getVersion"
+      responses:
+        200:
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                required:
+                  - "version"
+                properties:
+                  version:
+                    type: "string"
+                    description: "Returns the API version. Format: major.minor.build"
+  /device:
+    $ref: "./device/device.yaml#/get-count-dev"
+  /device/list:
+    $ref: "./device/device.yaml#/list-all-dev"
+  /device/{id}:
+    $ref: "./device/device.yaml#/single-dev"
+  /device-type:
+    $ref: "./device/device-type.yaml#/get-count-type"
+  /device-type/list:
+    $ref: "./device/device-type.yaml#/list-all-type"
+  /device-type/{id}:
+    $ref: "./device/device-type.yaml#/single-type"
+  /electrical:
+    $ref: "./device/electrical.yaml#/get-count-elec"
+  /electrical/list:
+    $ref: "./device/electrical.yaml#/list-all-elec"
+  /electrical/{id}:
+    $ref: "./device/electrical.yaml#/single-elec"
+  /location:
+    $ref: "./device/location.yaml#/get-count-loc"
+  /location/list:
+    $ref: "./device/location.yaml#/list-all-loc"
+  /location/{id}:
+    $ref: "./device/location.yaml#/single-loc"
+  /manufacturer:
+    $ref: "./device/manufacturer.yaml#/get-count-man"
+  /manufacturer/list:
+    $ref: "./device/manufacturer.yaml#/list-all-man"
+  /manufacture/{id}:
+    $ref: "./device/manufacturer.yaml#/single-man"
+  /tag:
+    $ref: "./device/tag.yaml#/get-count-tag"
+  /tag/list:
+    $ref: "./device/tag.yaml#/list-all-tag"
+  /tag/{id}:
+    $ref: "./device/tag.yaml#/single-tag"

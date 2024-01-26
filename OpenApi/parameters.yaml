@@ -1,0 +1,31 @@
+id:
+  name: "id"
+  description: "The ID of the data to retrieve"
+  required: true
+  in: path
+  schema:
+    type: "string"
+    format: "uuid"
+
+offset:
+  name: "offset"
+  in: "query"
+  description: "The offset to start from"
+  required: false
+  schema:
+    type: "integer"
+    format: "int64"
+    minimum: 0
+    default: 0
+
+limit:
+  name: "limit"
+  in: "query"
+  description: "The maximum number of devices to return"
+  required: false
+  schema:
+    type: "integer"
+    format: "int64"
+    minimum: 1
+    maximum: 1000
+    default: 100

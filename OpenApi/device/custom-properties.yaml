@@ -1,0 +1,15 @@
+custom-properties:
+  type: "object"
+  required:
+    - "id"
+    - "name"
+  properties:
+    id:
+      type: "string"
+      format: "uuid"
+    name:
+      type: "string"
+    description:
+      type: "string"
+  description: "The custom properties add custom key-value pairs to a device.
+   The key is unique per device. The value is a string."

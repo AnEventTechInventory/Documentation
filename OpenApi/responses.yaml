@@ -1,0 +1,36 @@
+error-message:
+  description: "Bad request, some required fields are missing or malformed"
+  content:
+    application/json:
+      schema:
+        type: "object"
+        required:
+          - "error"
+        properties:
+          error:
+            type: "string"
+            description: "The error message"
+
+uuid-list:
+  description: "A list of UUIDs"
+  content:
+    application/json:
+      schema:
+        type: "array"
+        items:
+          type: "string"
+          format: "uuid"
+
+item-count:
+  description: "OK"
+  content:
+    application/json:
+      schema:
+        type: "object"
+        required:
+          - "count"
+        properties:
+          count:
+            type: "integer"
+            format: "int64"
+            description: "Returns the total number of items"
